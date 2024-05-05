@@ -19,7 +19,7 @@ const OrderSummary = () => {
             <center>
                 <h2>Thank you for your order!</h2>
                 <p>Your <span className="bold">{orderData.item_name}</span> coookie box will be delivered on <span className="bold">{deliveryDate}</span></p>
-                <Link to="/home">
+                <Link to="/">
                     <button className="button-home">Back Home</button>
                 </Link>
             </center>
