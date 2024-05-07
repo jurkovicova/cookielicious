@@ -1,5 +1,5 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './home.jsx';
+import Home from './home-site.jsx';
 import Menu from './menu-site.jsx';
 import OrderSummary from './order-summary.jsx';
 import './style.css';
