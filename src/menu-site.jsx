@@ -141,7 +141,7 @@ function Menu() {
 									<input className='order-form-input' type='text' id='postCode' name='postCode' onChange={handleChange}/>
 								</div>
 							</div>
-							<label> Pick your flavour</label>
+							<label> Pick your box flavour</label>
 							<select name='itemName' onChange={handleChange}>
 								<option value=''>Select a flavor</option> {/* Default option */}
 								{items.map(item => (
