@@ -7,11 +7,5 @@
     },
     "[javascriptreact]": {
         "editor.defaultFormatter": "samverschueren.linter-xo"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "samverschueren.linter-xo"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "samverschueren.linter-xo"
     }
 }

@@ -21,6 +21,15 @@
     "test": "xo && react-scripts test",
     "eject": "react-scripts eject"
   },
+  "xo": {
+    "extends": "xo-react",
+    "rules": {
+      "react/react-in-jsx-scope": "off"
+    },
+    "ignore": [
+      "src/*.js"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
