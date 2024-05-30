@@ -1,21 +1,21 @@
   .spacer {
-    aspect-ratio: 960/300; 
+    aspect-ratio: 960/300;
     width: 100%;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
   }
 
   .bg {
-    
+
     background-image: url('./waves3.svg');
 
-}
+  }
 
-.card {
+  .card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding: 10px;
     margin: 1px;
@@ -23,12 +23,12 @@
     justify-content: center;
     width: 170px;
   }
-  
+
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  
+
   /* Add some padding inside the card container */
   .container {
     display: block;
@@ -38,21 +38,25 @@
 
   .items {
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line if they exceed the container width */
-    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line if they exceed the container width */
+    justify-content: center;
+    /* Center items horizontally */
     margin: 20px;
     gap: 20px;
     padding-right: 20px;
   }
 
   .order-field {
-      flex: 1; /* Take up half of the container */
-      padding-left: 10px; /* Add some spacing between items and order field */
-      padding-right: 100px;
+    flex: 1;
+    /* Take up half of the container */
+    padding-left: 10px;
+    /* Add some spacing between items and order field */
+    padding-right: 100px;
   }
 
   .menu-field {
-    justify-content: center; 
+    justify-content: center;
     padding-right: 20px;
     flex: 2;
   }
@@ -70,13 +74,13 @@
     padding-top: 5%;
     padding-bottom: 5%;
     justify-content: center;
-    background-color:#E3DFFF;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #E3DFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
   }
-   
+
   .button {
-   
+
     width: 200px;
     padding: 10px;
     margin-top: 10px;
@@ -85,20 +89,21 @@
     color: white;
     border-radius: 5px;
     cursor: pointer;
-}
+  }
 
-button:hover {
-  background-color: #49c15f;
-} 
+  button:hover {
+    background-color: #49c15f;
+  }
 
 
-.order-form label {
-  display: block;
-  width: 100%; 
-  text-align: left;
-  justify-content: space-between;
-}
-.order-form input {
+  .order-form label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    justify-content: space-between;
+  }
+
+  .order-form input {
     margin-bottom: 3px;
     display: block;
     width: 100%;
@@ -114,25 +119,24 @@ button:hover {
     border: 1px solid #84E296;
     border-radius: 5px;
   }
+
   .order-form-input {
-   height: 20px;
+    height: 20px;
   }
 
   .order-form select {
-    width: 102%; 
+    width: 102%;
     height: 20px;
     margin-bottom: 3px;
     display: block;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
+  }
 
   .date-picker {
-    width: 100%; 
+    width: 100%;
     height: 20px;
-    display:block;
-    border: 1px solid #ccc;
-    border-radius: 5px;    
+    display: block;
   }
 
   .form-submit-button {
@@ -143,11 +147,12 @@ button:hover {
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    }
+  }
 
-    .form-submit-button:disabled {
-      background-color: #cccccc; /* Grey */
-      cursor: not-allowed;
+  .form-submit-button:disabled {
+    background-color: #cccccc;
+    /* Grey */
+    cursor: not-allowed;
   }
 
   .button {
@@ -158,7 +163,8 @@ button:hover {
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 2em; /* Adjust font size for the button */
+    font-size: 2em;
+    /* Adjust font size for the button */
     padding: 20px 40px;
 
   }
@@ -172,7 +178,8 @@ button:hover {
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1em; /* Adjust font size for the button */
+    font-size: 1em;
+    /* Adjust font size for the button */
     padding: 10px 20px;
 
   }
@@ -185,7 +192,8 @@ button:hover {
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 2em; /* Adjust font size for the button */
+    font-size: 2em;
+    /* Adjust font size for the button */
     padding: 20px 40px;
 
   }
@@ -194,28 +202,31 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh; /* Set height to full viewport height */
-}
+    height: 80vh;
+    /* Set height to full viewport height */
+  }
 
-.title {
-  font-size: 3em; /* Adjust font size for the title */
-  margin-bottom: 20px; /* Add some space between the title and the button */
-}
-
-
-
-.summary-card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  padding: 10px;
-  margin: 1px;
-  text-align: center;
-  justify-content: center;
-  width: 900px;
-}
+  .title {
+    font-size: 3em;
+    /* Adjust font size for the title */
+    margin-bottom: 20px;
+    /* Add some space between the title and the button */
+  }
 
 
-.bold {
-  font-weight: bold;
-}
+
+  .summary-card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+    justify-content: center;
+    width: 900px;
+  }
+
+
+  .bold {
+    font-weight: bold;
+  }
