@@ -15,7 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ![demo](https://github.com/jurkovicova/cookielicious/assets/81041361/df664060-c7b5-4400-bf4a-f2a26e3cd3cd)
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 
 ## Backend
 For backend see my other repositories [cookielicious-server](https://github.com/jurkovicova/cookielicious-server) or [cookielicious-server-python](https://github.com/jurkovicova/cookielicious-server-python)
