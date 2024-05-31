@@ -17,6 +17,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 
+## Backend
+For backend see my other repositories [cookielicious-server](https://github.com/jurkovicova/cookielicious-server) or [cookielicious-server-python](https://github.com/jurkovicova/cookielicious-server-python)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
