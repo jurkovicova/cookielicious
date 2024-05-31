@@ -29,4 +29,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[AGPL](https://choosealicense.com/licenses/agpl-3.0/)
